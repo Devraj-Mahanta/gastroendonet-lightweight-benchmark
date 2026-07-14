@@ -1,0 +1,60 @@
+{
+  "model": "mobilenetv3_small",
+  "config": "full",
+  "run": 1,
+  "checkpoint": "finetune\\checkpoints\\mobilenetv3_small_full_run1_best.h5",
+  "n_params": 1122548,
+  "model_size_mb": 4.48,
+  "inference_ms_per_image": 47.53,
+  "tta_augments": 10,
+  "accuracy": 0.7990033222591362,
+  "auc_macro": 0.9589673828141212,
+  "f1_macro": 0.8016916252339105,
+  "f1_weighted": 0.7991821204031377,
+  "f1_per_class": {
+    "Gerd": 0.7560137457044672,
+    "Gerd_Normal": 0.768361581920904,
+    "Polyp": 0.8438818565400844,
+    "Polyp_Normal": 0.8385093167701863
+  },
+  "precision_macro": 0.8129808299687065,
+  "recall_macro": 0.8021925114115579,
+  "confusion_matrix": [
+    [
+      110,
+      46,
+      2,
+      5
+    ],
+    [
+      13,
+      136,
+      2,
+      4
+    ],
+    [
+      1,
+      5,
+      100,
+      14
+    ],
+    [
+      4,
+      12,
+      13,
+      135
+    ]
+  ],
+  "accuracy_ci95": [
+    0.7657807308970099,
+    0.8289036544850499
+  ],
+  "auc_ci95": [
+    0.9488730585448925,
+    0.9686836106947404
+  ],
+  "f1_macro_ci95": [
+    0.7689551446451162,
+    0.8322523868081849
+  ]
+}

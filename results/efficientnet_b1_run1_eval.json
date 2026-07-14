@@ -1,0 +1,47 @@
+{
+  "model": "efficientnet_b1",
+  "display_name": "EfficientNet-B1 (pretrained)",
+  "run": 1,
+  "checkpoint": "checkpoints\\efficientnet_b1_run1_best.h5",
+  "n_params": 6580363,
+  "model_size_mb": 25.47,
+  "inference_ms_per_image": 72.2699,
+  "accuracy": 0.7873754152823921,
+  "auc_macro": 0.9428049031820852,
+  "f1_macro": 0.7881593684287955,
+  "f1_weighted": 0.7869127266207774,
+  "f1_per_class": {
+    "Gerd": 0.7687296416938111,
+    "Gerd_Normal": 0.7854984894259819,
+    "Polyp": 0.8062015503875969,
+    "Polyp_Normal": 0.7922077922077922
+  },
+  "precision_macro": 0.7897315546772068,
+  "recall_macro": 0.7933012908696275,
+  "confusion_matrix": [
+    [
+      118,
+      33,
+      4,
+      8
+    ],
+    [
+      19,
+      130,
+      2,
+      4
+    ],
+    [
+      2,
+      4,
+      104,
+      10
+    ],
+    [
+      5,
+      9,
+      28,
+      122
+    ]
+  ]
+}

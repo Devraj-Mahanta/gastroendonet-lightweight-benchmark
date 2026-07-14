@@ -1,0 +1,60 @@
+{
+  "model": "efficientnet_b1",
+  "config": "a6_adamw",
+  "run": 2,
+  "checkpoint": "finetune\\checkpoints\\efficientnet_b1_a6_adamw_run2_best.h5",
+  "n_params": 7368587,
+  "model_size_mb": 28.49,
+  "inference_ms_per_image": 50.5339,
+  "tta_augments": 10,
+  "accuracy": 0.8106312292358804,
+  "auc_macro": 0.9630682953948853,
+  "f1_macro": 0.8117318348787141,
+  "f1_weighted": 0.8097578089792873,
+  "f1_per_class": {
+    "Gerd": 0.7987220447284344,
+    "Gerd_Normal": 0.8085106382978723,
+    "Polyp": 0.8396946564885496,
+    "Polyp_Normal": 0.8
+  },
+  "precision_macro": 0.8136754944814254,
+  "recall_macro": 0.8183274163782603,
+  "confusion_matrix": [
+    [
+      125,
+      29,
+      2,
+      7
+    ],
+    [
+      17,
+      133,
+      1,
+      4
+    ],
+    [
+      2,
+      3,
+      110,
+      5
+    ],
+    [
+      6,
+      9,
+      29,
+      120
+    ]
+  ],
+  "accuracy_ci95": [
+    0.7790282392026578,
+    0.845514950166113
+  ],
+  "auc_ci95": [
+    0.9523010592728337,
+    0.9721368571698422
+  ],
+  "f1_macro_ci95": [
+    0.778608560736489,
+    0.8467239115451729
+  ]
+}

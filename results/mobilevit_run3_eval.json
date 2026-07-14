@@ -1,0 +1,47 @@
+{
+  "model": "mobilevit",
+  "display_name": "MobileViT-S (scratch)",
+  "run": 3,
+  "checkpoint": "checkpoints\\mobilevit_run3_best.h5",
+  "n_params": 4090548,
+  "model_size_mb": 15.99,
+  "inference_ms_per_image": 5.6631,
+  "accuracy": 0.53156146179402,
+  "auc_macro": 0.7961842609203416,
+  "f1_macro": 0.5137103230967432,
+  "f1_weighted": 0.5172953407516058,
+  "f1_per_class": {
+    "Gerd": 0.36363636363636365,
+    "Gerd_Normal": 0.6337662337662339,
+    "Polyp": 0.4435146443514644,
+    "Polyp_Normal": 0.6139240506329113
+  },
+  "precision_macro": 0.5223045883396293,
+  "recall_macro": 0.5286763457754309,
+  "confusion_matrix": [
+    [
+      48,
+      85,
+      16,
+      14
+    ],
+    [
+      18,
+      122,
+      9,
+      6
+    ],
+    [
+      19,
+      13,
+      53,
+      35
+    ],
+    [
+      16,
+      10,
+      41,
+      97
+    ]
+  ]
+}

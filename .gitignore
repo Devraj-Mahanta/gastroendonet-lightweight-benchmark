@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Trained weights (archived on Zenodo, not in git)
+checkpoints/
+finetune/checkpoints/
+*.h5
+*.keras
+*.ckpt
+
+# Raw datasets (licensed; download separately)
+data/Gerd/
+data/Gerd_Normal/
+data/Polyp/
+data/Polyp_Normal/
+data/external_data/
+
+# Generated figures / manuscript artefacts
+paper_output/
+*.png
+*.pdf
+*.docx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

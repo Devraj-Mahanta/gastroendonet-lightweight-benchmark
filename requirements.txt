@@ -1,0 +1,21 @@
+# Core deep-learning framework
+# TF 2.10 is the last version with native Windows GPU support.
+# Install via conda (see TRAINING_GUIDE.md) for automatic CUDA management.
+# pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+tensorflow==2.10.1
+
+# Required for TensorFlow 2.10.x
+protobuf==3.19.6
+numpy==1.23.5
+
+# AdamW for TF 2.10 (tf.keras.optimizers.AdamW not available until TF 2.11+)
+tensorflow-addons==0.19.0
+
+# Data utilities
+pyyaml==6.0.1
+scikit-learn==1.2.2
+pandas==1.5.3
+pillow==9.5.0
+
+# Visualisation
+matplotlib==3.7.3

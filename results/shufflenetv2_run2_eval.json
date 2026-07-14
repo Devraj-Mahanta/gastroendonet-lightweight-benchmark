@@ -1,0 +1,47 @@
+{
+  "model": "shufflenetv2",
+  "display_name": "ShuffleNetV2-1.0x (scratch)",
+  "run": 2,
+  "checkpoint": "checkpoints\\shufflenetv2_run2_best.h5",
+  "n_params": 1273884,
+  "model_size_mb": 5.29,
+  "inference_ms_per_image": 3.0968,
+  "accuracy": 0.6411960132890365,
+  "auc_macro": 0.874033589058837,
+  "f1_macro": 0.6415829686700334,
+  "f1_weighted": 0.6415342854761951,
+  "f1_per_class": {
+    "Gerd": 0.6290801186943621,
+    "Gerd_Normal": 0.6554054054054054,
+    "Polyp": 0.6397058823529411,
+    "Polyp_Normal": 0.6421404682274248
+  },
+  "precision_macro": 0.6451545492184853,
+  "recall_macro": 0.6466197634344244,
+  "confusion_matrix": [
+    [
+      106,
+      34,
+      12,
+      11
+    ],
+    [
+      48,
+      97,
+      4,
+      6
+    ],
+    [
+      6,
+      5,
+      87,
+      22
+    ],
+    [
+      14,
+      5,
+      49,
+      96
+    ]
+  ]
+}

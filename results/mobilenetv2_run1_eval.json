@@ -1,0 +1,47 @@
+{
+  "model": "mobilenetv2",
+  "display_name": "MobileNetV2 (pretrained)",
+  "run": 1,
+  "checkpoint": "checkpoints\\mobilenetv2_run1_best.h5",
+  "n_params": 2263108,
+  "model_size_mb": 8.85,
+  "inference_ms_per_image": 29.8372,
+  "accuracy": 0.7724252491694352,
+  "auc_macro": 0.9368958540083977,
+  "f1_macro": 0.7734205464555419,
+  "f1_weighted": 0.7724171511732575,
+  "f1_per_class": {
+    "Gerd": 0.7579617834394905,
+    "Gerd_Normal": 0.7616099071207431,
+    "Polyp": 0.7899159663865546,
+    "Polyp_Normal": 0.78419452887538
+  },
+  "precision_macro": 0.7746626696628099,
+  "recall_macro": 0.7733821089942544,
+  "confusion_matrix": [
+    [
+      119,
+      26,
+      4,
+      14
+    ],
+    [
+      25,
+      123,
+      1,
+      6
+    ],
+    [
+      3,
+      7,
+      94,
+      16
+    ],
+    [
+      4,
+      12,
+      19,
+      129
+    ]
+  ]
+}
